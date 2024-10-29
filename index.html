@@ -1,0 +1,63 @@
+
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Web Sitesi</title>
+    <style>
+        /* Genel ayarlar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Ana ekran ayarları */
+        body, html {
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Üst çubuk tasarımı */
+        .header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Chatbot kapsayıcısı */
+        .chatbot-container {
+            width: 100%;
+            height: calc(100vh - 60px); /* Üst çubuğa göre ayarlandı */
+        }
+
+        /* Chatbot iframe ayarları */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Üst çubuk -->
+    <div class="header">
+        MUAMMER Aİ
+    </div>
+
+    <!-- Chatbot iframe kapsayıcısı -->
+    <div class="chatbot-container">
+        <iframe
+            src="https://www.chatbase.co/chatbot-iframe/NnwmlOjUTnCnjLNBuy6mW"
+            allow="microphone; camera"
+        ></iframe>
+    </div>
+
+</body>
+</html>
